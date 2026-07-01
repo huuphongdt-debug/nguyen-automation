@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "name":"PLC Mitsubishi FX5U",
+        "model":"FX5U-32MR/ES",
+        "brand":"Mitsubishi Electric",
+        "price":3900000,
+        "stock":12,
+        "image":"fx5u.jpg"
+    }
+    {
+        "name":"FX5U Datasheet",
+        "brand":"Mitsubishi",
+        "type":"PDF",
+        "size":"3.2 MB"
+    }
+]

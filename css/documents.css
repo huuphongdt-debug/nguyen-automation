@@ -1,0 +1,110 @@
+
+.documents-page{
+    padding:60px 20px;
+    max-width:1200px;
+    margin:0 auto;
+    display:grid;
+    gap:40px;
+    
+}
+.documents-page h1{
+
+    text-align:center;
+    color:var(--primary-color);
+}
+/* =========================
+   DOCUMENTS SEARCH
+========================= */
+.documents-search{
+
+    max-width:900px;
+    margin:50px auto;
+    padding:0 20px;
+}
+
+.documents-search .search-box{
+
+    display:flex;
+    gap:15px;
+    justify-content:center;
+}
+/* =========================
+   DOCUMENTS CONTENT
+========================= */
+.document-content{
+
+    max-width:1200px;
+    margin:0 auto;
+    display:grid;
+    gap:30px;
+    padding:50px 20px;
+    grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+}
+.document-sidebar{
+
+    background:var(--card-color);
+    padding:25px;
+    border-radius:var(--radius-md);
+    box-shadow:var(--shadow-sm);
+    height:fit-content;
+}
+.document-sidebar h3{
+
+    color:var(--primary-color);
+    text-align:center;
+    margin-bottom:20px;
+}
+.document-sidebar ul{
+
+    list-style:none;
+}
+.document-sidebar li{
+
+    padding:12px 0;
+    border-bottom:1px solid var(--border-color);
+    cursor:pointer;
+    transition:.3s;
+}
+.document-sidebar li:hover{
+    color:var(--secondary-color);
+    padding-left:10px;
+}
+
+/* =========================
+   DOCUMENT LIST
+========================= */
+.document-list{
+
+    margin-top:25px;
+}
+.document-list h2{
+
+    margin-bottom:25px;
+    text-align:center;
+    color:var(--primary-color);
+}
+table{
+
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+}
+th{
+
+    background:var(--primary-color);
+    text-align:left;
+    color:var(--text-light);
+
+    padding:15px;
+}
+td{
+
+    padding:15px;
+    text-align:left;
+    border-bottom:1px solid #eee;
+}
+tr:hover{
+
+    background:#F7F9FC;
+}

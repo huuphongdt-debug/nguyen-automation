@@ -1,0 +1,115 @@
+/* =========================
+   RESPONSIVE TABLET
+========================= */
+
+@media(max-width:992px){
+
+    header{
+        padding:15px 30px;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+    .product-detail{
+
+        grid-template-columns:1fr;
+
+    }
+}
+/* =========================
+   RESPONSIVE MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    
+    header{
+
+        flex-direction:column;
+
+        gap:15px;
+
+        height:auto;
+
+        padding:20px;
+    }
+
+    .logo img{
+        height:70px;
+    }
+
+    nav{
+        width:100%;
+        overflow-x:auto;
+    }
+
+    nav ul{
+        display:flex;
+        flex-wrap:nowrap;
+        justify-content:flex-start;
+        gap:20px;
+        padding:10px 0;
+        white-space:nowrap;
+    }
+
+    nav ul::-webkit-scrollbar{
+        display:none;
+    }
+
+    .hero{
+
+        height:auto;
+
+        padding:80px 20px;
+    }
+
+    .hero h1{
+
+        font-size:36px;
+    }
+
+    .hero p{
+
+        font-size:18px;
+    }
+
+    .categories,
+    .about,
+    .featured-products,
+    .brands,
+    .why-us{
+
+        padding:60px 20px;
+    }
+    header.hide{
+
+        transform:none;
+    }
+
+}
+@media(max-width:480px){
+
+    .hero h1{
+
+        font-size:28px;
+    }
+
+    .hero p{
+
+        font-size:16px;
+    }
+
+    .btn{
+
+        width:100%;
+
+        max-width:250px;
+    }
+
+    .product-card img{
+
+        height:180px;
+    }
+
+}
