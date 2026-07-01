@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGUYEN AUTOMATION</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo2.png" alt="NGUYEN AUTOMATION">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="products.html">Sản Phẩm</a></li>
+                <li><a href="services.html">Dịch Vụ</a></li>
+                <li><a href="documents.html">Tài Liệu</a></li>
+                <li><a href="#">Dự Án</a></li>
+                <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>NGUYEN AUTOMATION</h1>
+
+            <p>Smart Control, Smart Future</p>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Tìm Arduino, PLC, Servo...">
+
+                <button class="btn btn-primary" onclick="searchProduct()">
+                    <i class="fas fa-magnifying-glass"></i>
+                    Tìm kiếm
+                </button>
+
+            </div>
+
+            <div class="hero-button">
+
+                <a href="#" class="btn btn-primary">
+                    Xem Sản Phẩm
+                </a>
+
+                <a href="#" class="btn btn-outline">
+                    Liên Hệ
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="categories">
+        <h2>DANH MỤC SẢN PHẨM</h2>
+        <div class="grid">
+
+            <div class="card">
+                <i class="fas fa-microchip"></i>
+                <h3>Arduino & ESP32</h3>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-cogs"></i>
+                <h3>PLC Mitsubishi</h3>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-robot"></i>
+                <h3>Servo Motor</h3>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-bolt"></i>
+                <h3>Biến Tần</h3>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-satellite-dish"></i>
+                <h3>Cảm Biến</h3>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-network-wired"></i>
+                <h3>IoT & Robotics</h3>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="about">
+
+        <div class="about-container">
+
+            <h2>VỀ CHÚNG TÔI</h2>
+
+            <p class="about-intro">
+                NGUYEN AUTOMATION chuyên cung cấp thiết bị điện tử,
+                PLC Mitsubishi, Servo, Biến tần, cảm biến và các giải pháp
+                tự động hóa công nghiệp.
+            </p>
+
+            <div class="about-features">
+
+                <div class="feature-box">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Linh Kiện Điện Tử</h3>
+                    <p>Arduino, ESP32, cảm biến và các thiết bị điện tử phục vụ học tập và nghiên cứu.</p>
+                </div>
+
+                <div class="feature-box">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Tự Động Hóa</h3>
+                    <p>PLC, HMI, Servo, Biến tần và giải pháp điều khiển công nghiệp.</p>
+                </div>
+
+                <div class="feature-box">
+                    <i class="fas fa-headset"></i>
+                    <h3>Hỗ Trợ Kỹ Thuật</h3>
+                    <p>Tư vấn, hỗ trợ kỹ thuật và đồng hành cùng khách hàng trong các dự án.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="featured-products">
+
+        <h2>SẢN PHẨM NỔI BẬT</h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+
+                <img src="images/arduino.jpg" alt="Arduino UNO">
+
+                <h3>Arduino UNO R3</h3>
+
+                <p>Bo mạch phát triển Arduino phổ biến.</p>
+
+                <a href="#" class="btn">
+                    Xem Chi Tiết
+                </a>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="images/esp32.jpg" alt="ESP32">
+
+                <h3>ESP32 WiFi BLE</h3> 
+
+                <p>Vi điều khiển tích hợp WiFi và Bluetooth.</p>
+
+                <a href="#" class="btn">
+                    Xem Chi Tiết
+                </a>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="images/fx5u.jpg" alt="PLC FX5U">
+
+                <h3>PLC Mitsubishi FX5U</h3>
+
+                <p>Dòng PLC hiệu năng cao của Mitsubishi.</p>
+
+                <a href="#" class="btn">
+                    Xem Chi Tiết
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="brands">
+
+        <h2>THƯƠNG HIỆU PHÂN PHỐI</h2>
+
+        <div class="brand-grid">
+
+            <div class="brand-card">
+                <img src="images/brands/mitsubishi.png" alt="Mitsubishi">
+            </div>
+
+            <div class="brand-card">
+                <img src="images/brands/siemens.png" alt="Siemens">
+            </div>
+
+            <div class="brand-card">
+                <img src="images/brands/omron.png" alt="Omron">
+            </div>
+
+            <div class="brand-card">
+                <img src="images/brands/delta.png" alt="Delta">
+            </div>
+
+            <div class="brand-card">
+                <img src="images/brands/arduino.png" alt="Arduino">
+            </div>
+
+            <div class="brand-card">
+                <img src="images/brands/esp32.png" alt="ESP32">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="why-us">
+
+        <h2>TẠI SAO CHỌN CHÚNG TÔI</h2>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Sản Phẩm Chính Hãng</h3>
+                <p>Cam kết cung cấp thiết bị chất lượng và nguồn gốc rõ ràng.</p>
+            </div>
+
+            <div class="why-card">
+                <i class="fas fa-tools"></i>
+                <h3>Hỗ Trợ Kỹ Thuật</h3>
+                <p>Tư vấn kỹ thuật và hỗ trợ triển khai giải pháp tự động hóa.</p>
+            </div>
+
+            <div class="why-card">
+                <i class="fas fa-truck"></i>
+                <h3>Giao Hàng Toàn Quốc</h3>
+                <p>Đóng gói cẩn thận và giao hàng nhanh chóng.</p>
+            </div>
+
+            <div class="why-card">
+                <i class="fas fa-industry"></i>
+                <h3>Giải Pháp Công Nghiệp</h3>
+                <p>Cung cấp giải pháp điều khiển và tự động hóa cho doanh nghiệp.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-container">
+
+            <!-- ABOUT -->
+
+            <div class="footer-column">
+                <img src="images/logo2.png"
+                alt="Logo"
+                class="footer-logo">
+                <h3>NGUYEN AUTOMATION</h3>
+                <p>
+                Smart Control, Smart Future
+                </p>
+                <p>
+                Chuyên cung cấp thiết bị và giải pháp tự động hóa.
+                </p>
+            </div>
+
+            <!-- MENU -->
+
+            <div class="footer-column">
+                <h3>Liên kết</h3>
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="products.html">Sản phẩm</a></li>
+                    <li><a href="services.html">Dịch vụ</a></li>
+                    <li><a href="documents.html">Tài liệu</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+
+            <!-- SUPPORT -->
+
+            <div class="footer-column">
+                <h3>Hỗ trợ</h3>
+                <ul>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Điều khoản sử dụng</a></li>
+                    <li><a href="#">Hướng dẫn mua hàng</a></li>
+                </ul>
+            </div>
+
+            <!-- CONTACT -->
+
+            <div class="footer-column">
+                <h3>Liên hệ</h3>
+                <p><i class="fas fa-phone"></i> 0965 614 191</p>
+                <p><i class="fas fa-envelope"></i> info@nguyenautomation.vn</p>
+                <p><i class="fas fa-map-marker-alt"></i> Đà Nẵng, Việt Nam</p>
+            </div>
+
+        </div>
+
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 NGUYEN AUTOMATION. All Rights Reserved.
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
